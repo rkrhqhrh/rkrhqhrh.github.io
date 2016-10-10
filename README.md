@@ -92,6 +92,7 @@ HTML 언어에서는 `<blockquote>` 요소를 사용하여 인용절을 구조�
 
 Job Type | Role
 ---|---
+Job Type | Role
 ---|---
 Planner | Plan
 Desinger | Design
