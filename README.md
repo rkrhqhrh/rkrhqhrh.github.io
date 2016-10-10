@@ -77,8 +77,7 @@ ul>li{item$}*3
 
 - [Awwwards - Website Awards - Best Web Design Trends](http://www.awwwards.com/)
 - [The FWA - Awards](https://thefwa.com/)
-- [Awwwards - Website Awards - Best Web Design Trends](http://www.awwwards.com/)
-- [Awwwards - Website Awards - Best Web Design Trends](http://www.awwwards.com/)
+- [CSS Design Awards - Website Awards & Inspiration](http://www.cssdesignawards.com/)
 
 ### 인용 구문
 
@@ -86,5 +85,13 @@ ul>li{item$}*3
 HTML 언어에서는 `<blockquote>` 요소를 사용하여 인용절을 구조화한다.
 
 > "Design is All. All is Design."<br>
-> "Learn by Doign"
+> "Learn by Doign"<br>
 > "그것이 최선입니까? 확실해요?"
+
+### 표
+
+Job Type | Role
+--- | ---
+Planner | Plan
+Desinger | Design
+Developer | Develop
