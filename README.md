@@ -65,4 +65,6 @@ ul>li{item$}*3
 <img src="http://www.minionnation.co.uk/images/shareimage.jpg" alt="Minions">
 ```
 
+<img src="http://www.minionnation.co.uk/images/shareimage.jpg" alt="Minions" width="600" height="315">
+
 ![Minions](http://www.minionnation.co.uk/images/shareimage.jpg)
