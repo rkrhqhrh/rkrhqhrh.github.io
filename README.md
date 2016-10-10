@@ -6,7 +6,7 @@ Sarah's Website.
 # TODO
 
 - [x] Study Markdown
-- [ ] make 'index.html'
+- [ ] make `index.html`
 
 
 ## Markdown 문법 사용법
