@@ -65,6 +65,26 @@ ul>li{item$}*3
 <img src="http://www.minionnation.co.uk/images/shareimage.jpg" alt="Minions">
 ```
 
-<img src="http://www.minionnation.co.uk/images/shareimage.jpg" alt="Minions" width="600" height="315">
+<!-- <img src="http://www.minionnation.co.uk/images/shareimage.jpg" alt="Minions" width="600" height="315"> -->
 
-![Minions](Assets/ghost-minions.png)
+![Minions](Assets/ghost-minions.png "Ghost Minions")
+
+### 하이퍼링크
+
+```html
+<a href="http://iropke.com/">이롭게 에이전시</a>
+```
+
+- [Awwwards - Website Awards - Best Web Design Trends](http://www.awwwards.com/)
+- [The FWA - Awards](https://thefwa.com/)
+- [Awwwards - Website Awards - Best Web Design Trends](http://www.awwwards.com/)
+- [Awwwards - Website Awards - Best Web Design Trends](http://www.awwwards.com/)
+
+### 인용 구문
+
+인용절은 보통 들여쓰기를 통해 사용자에게 일반 문장과 구문해준다.<br>
+HTML 언어에서는 `<blockquote>` 요소를 사용하여 인용절을 구조화한다.
+
+> "Design is All. All is Design."<br>
+> "Learn by Doign"
+> "그것이 최선입니까? 확실해요?"
