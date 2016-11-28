@@ -1,0 +1,271 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+div, ul, li, a, h1, h2, span {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	width: 100%;
+}
+
+.header:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.header img {
+	vertical-align: middle;
+}
+
+.header .nav {
+	position: relative;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.header .nav:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.header .nav .bi {
+	position: absolute;
+	top: 28px;
+	left: 50%;
+	margin-left: -41px;
+}
+
+.header .nav .tel {
+	float: left;
+	margin-top: 42px;
+	padding-bottom: 40px;
+	font-size: 11px;
+	color: #3c3d48;
+	letter-spacing: 0.2em;
+	line-height: 17px;
+}
+
+.header .util {
+	float: right;
+	margin-top: 42px;
+	font-size: 11px;
+	color: #3c3d48;
+	line-height: 16px;
+	vertical-align: middle;
+}
+
+.header .util .language {
+	float: left;
+	margin-right: 20px;
+	letter-spacing: 0.2em;
+}
+
+.header .util .language img {
+	margin-left: 5px;
+}
+
+.header .util .money {
+	float: left;
+	margin-right: 30px;
+	letter-spacing: 0.2em;
+}
+
+.header .util .money img {
+	margin-left: 5px;
+}
+
+.header .util .basket {
+	float: left;
+	margin-right: 30px;
+}
+
+.header .util .login {
+	float: left;
+	font-size: 10px;
+	color: #5b5d69;
+	letter-spacing: 0.2em;
+}
+
+.header .util .login img {
+	margin-right: 10px;
+}
+
+.header .gnb {
+	clear: both;
+	position: relative;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	width: 100%;
+	border-top: 1px solid #f2f2f2;
+}
+
+.header .gnb {
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 11px;
+	color: #3c3d48;
+	letter-spacing: 0.2em;
+}
+
+.header .gnb li {
+	list-style: none;
+	float: left;
+	margin-right: 40px;
+}
+
+.header .gnb li:last-child {
+	margin-right: 0;
+}
+
+.header .gnb .arrow {
+	margin-right: 25px;
+}
+
+.header .gnb .arrow img {
+	margin-left: 5px;
+}
+
+.contents .main_visual {
+	position: relative;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 581px;
+	background: url('../images/header/bg.jpg') repeat-x;
+}
+
+.contents .main_visual .copy_1 {
+	position: absolute;
+	top: 220px;
+	left: 0;
+}
+
+.contents .main_visual .copy_2 {
+	position: absolute;
+	top: 330px;
+	left: 87px;
+}
+
+.contents .main_visual .model {
+	position: absolute;
+	right: 0;
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #3c3d48;
+	letter-spacing: 0.1em;
+}
+
+.banner span {
+	font-family: 'PT Serif', serif;
+	font-size: 15px;
+	font-style: italic;
+	color: #5b5d69;
+	letter-spacing: 0.1em;
+}
+
+.banner .shoes {
+	float: left;
+	height: 300px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	background: url('../images/banner/shoes.jpg') repeat-x;
+}
+
+.banner .shoes h2 {
+	margin-top: 200px;
+	text-align: center;
+}
+
+.banner .shoes span {
+	display: block;
+	text-align: center;
+}
+
+.banner .leather-bags {
+	float: left;
+	height: 300px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	background: url('../images/banner/leather-bags.jpg') repeat-x;
+}
+
+.banner .leather-bags h2 {
+	margin: 40px 0 0 40px;
+}
+
+.banner .women {
+	float: right;
+	height: 620px;
+	border-radius: 4px;
+	background: url('../images/banner/women.jpg') repeat-x;
+}
+
+.banner .women h2 {
+	margin-top: 250px;
+	text-align: center;
+}
+
+.banner .women span {
+	display: block;
+	text-align: center;
+}
+
+.banner .women .btn {
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;	
+	width: 170px;
+	height: 43px;
+	line-height: 43px;
+	font-size: 10px;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 0.2em;
+	color: #fff;
+	border-radius: 2px;
+	background-color: #e36556;
+}
+
+.banner .collection {
+	float: left;
+	height: 300px;
+	border-radius: 4px;
+	background: url('../images/banner/collection.jpg') repeat-x;
+}
+
+.banner .collection h2 {
+	margin-left: 330px;
+	margin-top: 95px;
+	text-align: center;
+}
+
+.banner .collection span {
+	margin-left: 330px;
+	display: block;
+	text-align: center;
+}
+
+.banner .collection .btn {
+	display: block;
+	margin-left: 390px;
+	margin-top: 30px;	
+	width: 170px;
+	height: 43px;
+	line-height: 43px;
+	font-size: 10px;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 0.2em;
+	color: #fff;
+	border-radius: 2px;
+	background-color: #e36556;
+}
