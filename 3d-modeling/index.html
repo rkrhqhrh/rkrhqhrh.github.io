@@ -92,7 +92,7 @@
 
         var loader = new THREE.GLTFLoader();
         loader.load(
-            "./path/iropke-monogram.glb",
+            "./path/iropke-monogram.glb"/*,
             function (gltf) {
                 var scale = 5.6;
                 bus.body = gltf.scene.children[0];
@@ -102,10 +102,10 @@
                 bus.body.position.set(0, 3.6, 0);
                 bus.body.castShadow = true;
                 bus.frame.add(bus.body);
-            },
+            },*/
         );
 
-        scene.add(bus.frame)
+        scene.add(loader)
 
         // 카메라의 Z좌표를 물체에서 7 정도 떨어진 지점에 위치합니다.
         camera.position.z = 7;
