@@ -21,8 +21,8 @@
 
 			var mouseX = 0, mouseY = 0;
 
-			var windowHalfX = window.innerWidth / 2;
-			var windowHalfY = window.innerHeight / 2;
+			var windowHalfX = window.innerWidth / 1;
+			var windowHalfY = window.innerHeight / 1;
 
 			var object;
 
@@ -119,8 +119,8 @@
 
 			function onWindowResize() {
 
-				windowHalfX = window.innerWidth / 2;
-				windowHalfY = window.innerHeight / 2;
+				windowHalfX = window.innerWidth / 1;
+				windowHalfY = window.innerHeight / 1;
 
 				camera.aspect = window.innerWidth / window.innerHeight;
 				camera.updateProjectionMatrix();
@@ -131,8 +131,8 @@
 
 			function onDocumentMouseMove( event ) {
 
-				mouseX = ( event.clientX - windowHalfX ) / 2;
-				mouseY = ( event.clientY - windowHalfY ) / 2;
+				mouseX = ( event.clientX - windowHalfX ) / 1;
+				mouseY = ( event.clientY - windowHalfY ) / 1;
 
 			}
 
@@ -147,8 +147,8 @@
 
 			function render() {
 
-				camera.position.x += ( mouseX - camera.position.x ) * .02;
-				camera.position.y += ( - mouseY - camera.position.y ) * .02;
+				camera.position.x += ( mouseX - camera.position.x ) * .035;
+				camera.position.y += ( - mouseY - camera.position.y ) * .035;
 
 				camera.lookAt( scene.position );
 
