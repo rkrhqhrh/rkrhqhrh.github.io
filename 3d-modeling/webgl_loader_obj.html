@@ -119,8 +119,8 @@
 
 			function onWindowResize() {
 
-				windowHalfX = window.innerWidth / 32;
-				windowHalfY = window.innerHeight / 32;
+				windowHalfX = window.innerWidth / 64;
+				windowHalfY = window.innerHeight / 64;
 
 				camera.aspect = window.innerWidth / window.innerHeight;
 				camera.updateProjectionMatrix();
@@ -147,8 +147,8 @@
 
 			function render() {
 
-				camera.position.x += ( mouseX - camera.position.x ) * .03;
-				camera.position.y += ( - mouseY - camera.position.y ) * .03;
+				camera.position.x += ( mouseX - camera.position.x ) * .04;
+				camera.position.y += ( - mouseY - camera.position.y ) * .04;
 
 				camera.lookAt( scene.position );
 
