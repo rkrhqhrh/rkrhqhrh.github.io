@@ -67,7 +67,7 @@
 
 					object.scale.x = object.scale.y = object.scale.z = 5;
 					object.position.y = 0;
-//					object.geometry.computeVertexNormals(true);
+					object.materials.shading = THREE.SmoothShading;
 					scene.add( object );
 
 				}
